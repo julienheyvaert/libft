@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 12:37:44 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/17 00:34:18 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/04/22 14:55:35 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	if (i == n)
 		return (0);
-	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
+	return ((int)((unsigned char)s1[i] - (unsigned char)s2[i]));
 }
 
 // int	main(void)

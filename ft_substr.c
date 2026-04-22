@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 17:30:57 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/17 00:34:34 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/04/22 14:56:16 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	unsigned int	i;
 	size_t			s_length;
 
+	if (!s)
+		return (NULL);
 	s_length = ft_strlen(s);
 	if (start >= s_length)
 		return (ft_strdup(""));

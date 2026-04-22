@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 13:53:00 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/17 00:32:03 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/04/22 14:32:47 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int	ft_atoi(const char *str)
 		number += *str - '0';
 		str++;
 	}
-	return (sign * number);
+	return ((int)(sign * number));
 }
 
 // int	main(void)
