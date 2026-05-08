@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 17:33:22 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/20 17:54:30 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:35:36 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,19 +99,3 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (words);
 }
-
-// int	main(void)
-// {
-// 	char			**array;
-// 	unsigned int	i;
-
-// 	array = ft_split("Une petite phrase", ' ');
-
-// 	i = 0;
-// 	while (array[i])
-// 	{
-// 		printf("%s\n", array[i++]);
-// 	}
-// 	free_array(array, i);
-// 	return (0);
-// }

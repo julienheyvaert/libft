@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 16:10:31 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/20 13:53:58 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:35:44 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,14 +29,3 @@ char	*ft_strdup(const char *s1)
 	duplicate[i] = '\0';
 	return (duplicate);
 }
-
-// int	main(void)
-// {
-// 	char	str[3];
-
-// 	str[0] = 'O';
-// 	str[1] = 'K';
-// 	str[2] = '\0';
-// 	printf("%s\n", ft_strdup(str));
-// 	return (0);
-// }

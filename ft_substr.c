@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 17:30:57 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/22 14:56:16 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:36:18 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,11 +37,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub[i] = '\0';
 	return (sub);
 }
-
-// int	main(void)
-// {
-// 	printf("result = %s\n", ft_substr("One Two Three", 4, 3));
-// 	printf("result = %s\n", ft_substr("One Two Three", 4, 30));
-// 	printf("result = %s\n", ft_substr("", 4, 3));
-// 	return (0);
-// }

@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 13:30:03 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/22 15:02:11 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:35:05 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-
-// int	main(void)
-// {
-// 	printf("%s\n", (char *)ft_memchr("un str de test", 't', 100));
-// 	printf("%s\n", (char *)ft_memchr("un str de test", 't', 2));
-// 	return (0);
-// }

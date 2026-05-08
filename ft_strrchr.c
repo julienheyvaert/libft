@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 12:36:07 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/17 00:34:26 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:36:12 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,13 +28,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-// int	main(void)
-// {
-// 	char	testchar[] = "Ceci est un ordinateur";
-
-// 	printf("result1=%s\n", ft_strrchr(testchar, 'n'));
-// 	printf("result2=%s\n", ft_strrchr(testchar, 'b'));
-// 	printf("result3=%s\n", ft_strrchr(testchar, '\0'));
-// 	return (0);
-// }

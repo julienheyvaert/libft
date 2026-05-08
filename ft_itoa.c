@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jheyvaer <jheyvaer@student.be>             +#+  +:+       +#+        */
+/*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 17:33:51 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/17 15:30:15 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:34:09 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,9 +52,3 @@ char	*ft_itoa(int n)
 	s[--length] = (number % 10) + '0';
 	return (s);
 }
-
-// int	main(void)
-// {
-// 	printf("%s\n", ft_itoa(-2147483648));
-// 	return (0);
-// }

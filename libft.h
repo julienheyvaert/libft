@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/13 16:02:51 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/19 20:22:15 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:42:37 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,7 @@
 # include <stdlib.h>
 # include <limits.h>
 # include <unistd.h>
-
-// # include <stdio.h>
+# include "ft_printf.h"
 
 typedef struct s_list
 {

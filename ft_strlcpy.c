@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/15 19:21:18 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/17 00:34:04 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:35:56 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,13 +30,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 		i++;
 	return (i);
 }
-
-// int	main(void)
-// {
-// 	char	destination[5];
-// 	size_t	result;
-
-// 	result = ft_strlcpy(destination, "test", 5);
-// 	printf("result=%s, size=%zu\n", destination, result);
-// 	return (0);
-// }

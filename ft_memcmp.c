@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 13:34:43 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/22 15:03:58 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:35:08 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,10 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	printf("%d\n", ft_memcmp("1234", "123456789", 9));
-// 	printf("%d\n", ft_memcmp("1234", "123456789", 4));
-// 	return (0);
-// }

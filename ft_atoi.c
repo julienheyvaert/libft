@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 13:53:00 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/22 14:32:47 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:33:28 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,3 @@ int	ft_atoi(const char *str)
 	}
 	return ((int)(sign * number));
 }
-
-// int	main(void)
-// {
-// 	printf("%d\n", ft_atoi("  	\n-123456"));
-// 	return (0);
-// }

@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 17:31:56 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/17 00:33:56 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:35:50 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcat(joined, s2, length + 1);
 	return (joined);
 }
-
-// int	main(void)
-// {
-// 	printf("%s\n", ft_strjoin("hello ", "world"));
-// 	return (0);
-// }

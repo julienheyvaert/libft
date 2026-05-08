@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jheyvaer <jheyvaer@student.be>             +#+  +:+       +#+        */
+/*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/15 12:54:38 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/17 15:40:07 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:35:14 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,18 +33,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
-
-// int	main(void)
-// {
-// 	char	str[6];
-
-// 	str[0] = 'H';
-// 	str[1] = 'e';
-// 	str[2] = 'l';
-// 	str[3] = 'l';
-// 	str[4] = 'o';
-// 	str[5] = '\0';
-// 	ft_memmove(str + 3, str, 2);
-// 	printf("%s\n", str);
-// 	return (0);
-// }

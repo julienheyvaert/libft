@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jheyvaer <jheyvaer@student.be>             +#+  +:+       +#+        */
+/*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 14:52:37 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/17 14:09:06 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:33:38 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,20 +24,3 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_bzero(allocated, count * size);
 	return (allocated);
 }
-
-// int	main(void)
-// {
-// 	int	*array;
-// 	int	i;
-
-// 	array = ft_calloc(5, sizeof(int));
-// 	i = 0;
-// 	while (i < 5)
-// 	{
-// 		printf("%d ", array[i]);
-// 		i++;
-// 	}
-// 	printf("\n");
-// 	free(array);
-// 	return (0);
-// }

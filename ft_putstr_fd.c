@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 17:36:02 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/17 00:33:33 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:35:30 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,3 @@ void	ft_putstr_fd(char *s, int fd)
 		return ;
 	write(fd, s, ft_strlen(s));
 }
-
-// int	main(void)
-// {
-// 	ft_putstr_fd("Hello", 1);
-// 	return (0);
-// }

@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/14 17:52:27 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/22 15:00:47 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:35:11 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,23 +25,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 		*d++ = *s++;
 	return (dst);
 }
-
-// int	main(void)
-// {
-// 	int	array[4];
-// 	int	*dst;
-// 	int	i;
-
-// 	array[0] = 1;
-// 	array[1] = 2;
-// 	array[2] = 3;
-// 	array[3] = 4;
-// 	dst = malloc(sizeof(int) * 4);
-// 	ft_memcpy(dst, array, sizeof(array));
-// 	i = 0;
-// 	while (i < 4)
-// 		printf("%d ", dst[i++]);
-// 	printf("\n");
-// 	free(dst);
-// 	return (0);
-// }

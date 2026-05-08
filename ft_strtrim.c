@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 17:32:43 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/17 00:34:30 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:36:15 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,10 +35,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 		n--;
 	return (ft_substr(s1, 0, n));
 }
-
-// int	main(void)
-// {
-// 	printf("result=%s\n", ft_strtrim("  un test()", " ()"));
-// 	printf("result=%s\n", ft_strtrim("aaa", "a"));
-// 	return (0);
-// }

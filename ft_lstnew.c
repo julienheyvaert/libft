@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 17:49:20 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/17 00:32:46 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:34:57 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,13 +23,3 @@ t_list	*ft_lstnew(void *content)
 	new_node->next = NULL;
 	return (new_node);
 }
-
-// int	main(void)
-// {
-// 	t_list	*node;
-
-// 	node = ft_lstnew("test");
-// 	printf("%s\n", (char *)node->content);
-// 	free(node);
-// 	return (0);
-// }

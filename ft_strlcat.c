@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/15 19:31:25 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/17 00:34:00 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:35:53 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,19 +33,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[dst_length + i] = '\0';
 	return (dst_length + src_length);
 }
-
-// int	main(void)
-// {
-// 	char	buffer[20];
-
-// 	buffer[0] = 'E';
-// 	buffer[1] = 'c';
-// 	buffer[2] = 'o';
-// 	buffer[3] = 'l';
-// 	buffer[4] = 'e';
-// 	buffer[5] = ' ';
-// 	buffer[6] = '\0';
-// 	ft_strlcat(buffer, "42", 20);
-// 	printf("%s\n", buffer);
-// 	return (0);
-// }

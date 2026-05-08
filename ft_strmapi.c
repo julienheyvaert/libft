@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 17:34:14 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/20 11:11:09 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:36:02 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,16 +31,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	result[i] = '\0';
 	return (result);
 }
-
-// static char	upper_even(unsigned int i, char c)
-// {
-// 	if ((i % 2) == 0 && (c >= 'a' && c <= 'z'))
-// 		c -= 32;
-// 	return (c);
-// }
-
-// int	main(void)
-// {
-// 	printf("%s\n", ft_strmapi("abcdefghijklmnop", &upper_even));
-// 	return (0);
-// }

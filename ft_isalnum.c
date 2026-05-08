@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/13 16:03:01 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/17 00:27:18 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:33:42 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,11 +18,3 @@ int	ft_isalnum(int c)
 		|| (c >= 'a' && c <= 'z')
 		|| (c >= 'A' && c <= 'Z'));
 }
-
-// int	main(void)
-// {
-// 	printf("%d\n", ft_isalnum('?'));
-// 	printf("%d\n", ft_isalnum('a'));
-// 	printf("%d\n", ft_isalnum('1'));
-// 	return (0);
-// }

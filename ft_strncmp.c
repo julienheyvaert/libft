@@ -6,7 +6,7 @@
 /*   By: jheyvaer <jheyvaer@student.42belgium.be    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/16 12:37:44 by jheyvaer          #+#    #+#             */
-/*   Updated: 2026/04/22 14:55:35 by jheyvaer         ###   ########.fr       */
+/*   Updated: 2026/05/07 19:36:05 by jheyvaer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,12 +27,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		return (0);
 	return ((int)((unsigned char)s1[i] - (unsigned char)s2[i]));
 }
-
-// int	main(void)
-// {
-// 	printf("%d\n", ft_strncmp("hello", "hello", 5));
-// 	printf("%d\n", ft_strncmp("hello", "hello world", 5));
-// 	printf("%d\n", ft_strncmp("hello", "hello world", 11));
-// 	printf("%d\n", ft_strncmp("", "", 1));
-// 	return (0);
-// }
